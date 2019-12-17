@@ -2,6 +2,8 @@ package polymorpism;
 
 public class RBI {
 	
+	
+	
 	//method signature is method name + method parameters
 	public void getHomeLoanROI(int amount, String bankName) {
 		
@@ -16,6 +18,14 @@ public class RBI {
 	
 	public void getHomeLoanROI(int amount) {
 		
+	}
+	
+	public double getHomeLoanROI() {
+		return 8.5;
+	}
+	
+	public double getCarLoanROI() {
+		return 10.5;
 	}
 
 }
