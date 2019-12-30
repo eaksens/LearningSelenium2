@@ -1,7 +1,7 @@
 package polymorpism;
 
 public class CITI extends RBI{
-
+	//child class (subclass) extends parent class (superclass)
 	public static void main(String[] args) {
 		
 		CITI obj = new CITI();
@@ -10,6 +10,8 @@ public class CITI extends RBI{
 		 * fulfill functionality of a child class.
 		 */
 		System.out.println(obj.getHomeLoanROI());
+		
+		RBI obj1 = new CITI();
 		
 		obj.getCarLoanROI();
 	}
