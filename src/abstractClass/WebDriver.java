@@ -11,12 +11,13 @@ public abstract class WebDriver {
 		
 	}
 	/*
+	 * 
 	 * Interview Question:
 	 * 1. abstract class vs interface
 	 * abstract class can contain both abstract method and concrete method
 	 * but Interface is ONLY contained abstract methods
-	 * 2. how to call concrete method from an abstract class
-	 * Inheritance from the parent class
+	 * 2. how to call concrete method from an abstract class??
+	 * Inheritance of the concrete child class 
 	 *
 	 */
 }
